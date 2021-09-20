@@ -1,0 +1,5 @@
+crud:
+    delete:
+        text: Supprimer
+        icon: glyphicon glyphicon-trash
+        before: Voulez-vous vraiment supprimer ?
