@@ -1,0 +1,9 @@
+services:
+   Aldaflux\AldafluxDeleteBundle\Twig\TokenFomExtension:
+    arguments: ["@security.csrf.token_manager", "@router.default", "@translator.default"]
+#    arguments: ["@twig"]
+    tags:
+      - { name: twig.extension }
+#twig:
+#    paths:
+#        '/acme/foo-bar/templates': aldafluxDeleteBundle
